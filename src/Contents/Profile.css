@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'MapoFlowerIsland';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.profile_image h1 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.profile_image {
+    padding-top: 40px;
+    padding-bottom: 150px;
+    text-align: center;
+    position: relative;
+}
+.profile_image h2 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    letter-spacing: 10px;
+    color: #212121;
+}
+.profile_image h2 span {
+    font-size: 21px;
+}
+.profile_image img {
+    width: 300px;
+}
+.profile_image h3 {
+    letter-spacing: 20px;
+    color: #212121;
+}
+.profile_moto h4 {
+    font-family: 'MapoFlowerIsland';
+    font-size: 50px;
+    color: silver;
+    opacity: 0.2;
+}
+.profile_moto h4:nth-child(1) {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translateX(-20%);
+}
+.profile_moto h4:nth-child(2) {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: translateX(-50%);
+}
+hr {
+    width: 100px;
+    color: gray;
+    margin: 0 auto;
+}
+.profile {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 160px 0;
+    color: #424242;
+    line-height: 32px;
+}
+.profile_study {
+    align-self: center;
+}
+.profile_study span {
+    font-size: 12px;
+}
+.profile_skill {
+    font-size: 18px;
+    font-weight: bold;
+}
+.profile_skill span {
+    font-size: 14px;
+    padding-right: 8px;
+}
