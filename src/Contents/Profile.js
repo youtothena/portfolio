@@ -28,9 +28,9 @@ const Profile = () => {
                         <p>JAVASCRIPT</p>
                         <p>jQuery</p>
                         <p>React</p>
-                        <span>Photoshop</span>
+                        {/* <span>Photoshop</span>
                         <span>Power Point</span>
-                        <span>Word</span>
+                        <span>Word</span> */}
                     </div>
                 </section>
             </article>

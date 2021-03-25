@@ -28,6 +28,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://frosty-thompson-1d8ef9.netlify.app/",
   "browserslist": {
     "production": [
       ">0.2%",
