@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+.container_box img {
+    margin: 40px 0;
+    width: 400px;
+    height: 100%;
+}
+.container_box button {
+    width: 100px;
+    background: none;
+    padding: 8px;
+    margin: 10px 20px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.container_box button i {
+    padding-right: 7px;
+}
+.container_box button:hover {
+    background: #000;
+    color: #fff;
+}
+.container_box button:focus {
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+.container_box {
+    width: 90%;
+    height: 100%;
+    margin: 40px auto;
+    text-align: center;
+    color: #212121;
+    font-family: 'Oswald', sans-serif;
+}
+.project {
+    margin-bottom: 100px;
+}
+.project_title h2 {
+    width: 30%;
+    padding: 17px 0 20px 0;
+    border-bottom: 1px solid darkgray;
+    border-top: 1px solid darkgray;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-shadow: 1px 1px 1px silver;
+}
+.project_text h2 {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.project_text h3 {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #424242;
+    letter-spacing: 1px;
+}
+.project_text p {
+    color: #616161;
+    padding: 20px 0;
+    line-height: 24px;
+    font-size: 12px;
+} 

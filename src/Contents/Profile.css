@@ -9,7 +9,9 @@
     margin: 0;
 }
 .profile_image h1 {
-    font-size: 36px;
+    margin-bottom: 10px;
+    color: #424242;
+    font-size: 24px;
     text-align: center;
     letter-spacing: 2px;
 }

@@ -63,7 +63,7 @@ const useStyles = makeStyles((theme) => ({
   list: {
     paddingLeft: 30,
     paddingTop: 50,
-    lineHeight: '40px',
+    lineHeight: '60px',
     fontSize: 16,
     color: "#6a6a6a"
   }
@@ -136,6 +136,8 @@ export default function Navigation() {
         <List className={classes.list}>
          <Link to="/"><h2>HOME</h2></Link>
          <NavLink activeStyle={activeStyle} to="/profile"><h2>PROFILE</h2></NavLink>
+         <NavLink activeStyle={activeStyle} to="/project"><h2>PROJECT</h2></NavLink>
+         <NavLink activeStyle={activeStyle} to="/contact"><h2>CONTACT</h2></NavLink>
         </List>
       </Drawer>
     </div>
