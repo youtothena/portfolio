@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Navigation from './Navigation/Navigation';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Profile from './Contents/Profile';
 import Footer from './components/Footer';
 import Project from './Contents/Project';
@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <>
-        <BrowserRouter>
+        <HashRouter basename={process.env.PUBLIC_URL}>
           <Switch>
             <ScrollTop>
               <Route path="/" exact={true} component={Header} />
@@ -23,7 +23,7 @@ class App extends Component {
               <Route path="/contact" component={Contact} />
             </ScrollTop>
           </Switch>
-        </BrowserRouter>
+        </HashRouter>
          <Footer />
       </>
     );

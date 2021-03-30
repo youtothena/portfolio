@@ -12,10 +12,10 @@
     cursor: pointer;
     transition: all .3s;
 }
-.container_box button i {
+.container_box .link_btn i {
     padding-right: 7px;
 }
-.container_box button:hover {
+.container_box .link_btn:hover {
     background: #000;
     color: #fff;
 }
@@ -23,14 +23,6 @@
     border: none;
     outline: none;
 }
-
-
-
-
-
-
-
-
 
 .container_box {
     width: 90%;
@@ -42,6 +34,11 @@
 }
 .project {
     margin-bottom: 100px;
+}
+.project_title:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 .project_title h2 {
     width: 30%;
@@ -70,3 +67,17 @@
     line-height: 24px;
     font-size: 12px;
 } 
+.lang_btn_box {
+    margin-top: 18px;
+}
+.lang_btn {
+    border: none;
+    font-size: 10px;
+    width: 50px;
+    color: #3a3a3a;
+}
+.lang_btn:hover {
+    text-decoration: underline;
+    background: none;
+    color: black;
+}
